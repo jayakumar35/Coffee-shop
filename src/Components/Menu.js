@@ -30,7 +30,7 @@ function Menu() {
 
             </div>
 
-            <Row className="d-flex p-2  " >
+            <Row className="d-flex p-2 mx-4 " >
                 <Col className="menu-item d-flex " sm={4} md={3} lg={2} >
                     <Card className=" Menu-card m-2 " style={{ width: '15rem' }}>
                         <Card.Img className="menu-box" variant="top" src={Espresso} />
@@ -158,8 +158,8 @@ function Menu() {
                 </Col>
                 <Col className="d-flex" sm={3} lg={2} md={3}>
 
-                    <Card className=" Menu-card m-2" style={{ width: '15rem' }}>
-                        <Card.Img className="menu-box1 h- " variant="top" src={Icedcarmmello} />
+                    <Card className=" Menu-card m-2 " style={{ width: '15rem' }}>
+                        <Card.Img className="menu-box1  " variant="top" src={Icedcarmmello} />
                         <Card.Body>
                             <Card.Title className="title">Iced Caramello</Card.Title>
                             <Card.Text className="text">
