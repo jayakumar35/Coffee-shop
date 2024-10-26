@@ -12,8 +12,7 @@ function NavScrollExample() {
       <Container >
       <img
               src={coffelogo}
-              width="100"
-              height="100"
+              
               className=" coffeelogo d-inline-block align-top "
               alt="React Bootstrap logo"
             />
