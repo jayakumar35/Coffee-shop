@@ -1,0 +1,96 @@
+// <---Media Size Leptop--->
+@media (min-width:1024px) {
+    
+
+.Booking-container{
+    background: #ECB176;
+    padding-top: 30px;
+
+    
+    
+    .line{
+        font-size:2.5rem;
+        font-weight: 100;
+        // text-align: center;
+    }
+    h1{
+        font-size: 4.5rem;
+        font-family: "Poppins", serif;
+
+        margin-left: 10%;
+    }
+    h3{
+      font-size: 3rem;  
+      margin-left: 10%;
+
+    }
+    p{
+        font-size: 1.2rem;
+        font-family: "Kalam", cursive;
+        margin-left: 10%;
+    }
+    
+   
+      
+}
+}
+
+// <---Media Size Tablet--->
+@media (min-width:426px) and (max-width:769px) {
+        .Booking-container{
+        background: #ECB176;
+        padding-top: 30px;
+    
+        
+        
+       
+        h1{
+            font-size: 3rem;
+            font-family: "Poppins", serif;
+    
+            margin-left: 10%;
+        }
+        h3{
+          font-size: 2rem;  
+          margin-left: 10%;
+    
+        }
+        p{
+            font-size: 1rem;
+            font-family: "Kalam", cursive;
+            margin-left: 10%;
+        }
+        
+       
+          
+    }
+    }
+
+// <---Media Size Mobile--->
+@media (min-width:320px) and (max-width:426px) {
+    .Booking-container{
+    background: #ECB176;
+    padding-top: 30px;
+  
+   
+    h1{
+        font-size: 3rem;
+        font-family: "Poppins", serif;
+
+        margin-left: 10%;
+    }
+    h3{
+      font-size: 1.6rem;  
+      margin-left: 10%;
+
+    }
+    p{
+        font-size: .9rem;
+        font-family: "Kalam", cursive;
+        margin-left: 10%;
+    }
+    
+   
+      
+}
+}    

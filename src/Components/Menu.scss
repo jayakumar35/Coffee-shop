@@ -1,0 +1,172 @@
+// <---Media Size Leptop--->
+@media (min-width: 1024px) {
+    .Menu-container {
+        background: #ecb176;
+        .heading {
+            text-align: center;
+        }
+
+        .heading p {
+            font-size: 2.5rem;
+            font-weight: 10;
+            padding-top: 50px;
+        }
+
+        .heading h3 {
+            color: var(--text-color);
+            font-size: 35px;
+            font-family: "Poppins", serif;
+        }
+
+        .heading h1 {
+            font-size: 60px;
+            font-weight: 450;
+            margin-top: 20px;
+        }
+
+        .Menu-card {
+            background: #ecb176;
+            border: none;
+            box-shadow: 5px 5px 5px 2px rgb(145, 145, 145);
+            transition: 0.5s;
+        }
+        .Menu-card:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        .menu-box {
+            max-width: 100%;
+            max-height: auto;
+        }
+        .menu-box1 {
+            height: 200px;
+        }
+        .title {
+            font-size: 1rem;
+        }
+        .text {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+// <---Media Size Tablet --->
+@media (min-width: 426px) and (max-width: 769px) {
+    .Menu-container {
+        background: #ecb176;
+        .heading {
+            text-align: center;
+        }
+
+        .heading p {
+            font-size: 2rem;
+            font-weight: 10;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-family: "Poppins", serif;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 450;
+        }
+
+        .Menu-card {
+            background: #ecb176;
+            border: none;
+            box-shadow: 5px 5px 5px 2px rgb(145, 145, 145);
+            transition: 0.5s;
+        }
+        .Menu-card:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        .menu-box {
+            max-width: 100%;
+            max-height: 100px;
+        }
+        .menu-box1 {
+            height: 100px;
+        }
+
+        .title {
+            font-size: 1rem;
+        }
+        .text {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+// <---Media Size Mobile --->
+@media (min-width: 320px) and (max-width:426px) {
+    .Menu-container {
+        background: #ecb176;
+        .heading {
+            text-align: center;
+        }
+
+        .heading p {
+            font-size: 2rem;
+            font-weight: 10;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            font-family: "Poppins", serif;
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 450;
+        }
+
+        .Menu-card {
+            position: relative;
+            max-width: 300px;
+            max-height: 100px;
+            background: #ecb176;
+            border: none;
+            box-shadow: 5px 5px 5px 2px rgb(145, 145, 145);
+            transition: 0.5s;
+        }
+        .Menu-card:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        .menu-box {
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .menu-box1 {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        .title {
+            position: absolute;
+            top: 10%;
+            left: 45%;
+            font-size: 0.6rem;
+        }
+        .text {
+            position: absolute;
+            top: 25%;
+            left: 45%;
+            font-size: 0.5rem;
+        }
+        button{
+            position: absolute;
+            top: 65%;
+            left: 45%;
+            padding: 5px;
+            max-width: 50px;
+            max-height: 50px;
+            font-size: 0.5rem;
+
+        }
+    }
+}
+

@@ -1,0 +1,185 @@
+// <---Media Size Leptop--->
+@media (min-width:1024px) {
+  
+.Client-container{
+    background: #ECB176;
+     .heading{
+       
+        text-align: center;
+        p{
+            font-size: 2.5rem;
+        }
+         h2 {
+            color: var(--text-color);
+            font-size: 35px;
+            font-family: "Poppins", serif; 
+            
+        }
+        h1{
+            font-family: "Poppins", serif;
+            font-size: 60px;
+            font-weight: 450;
+  
+        }
+
+     }
+
+    .Client {
+       
+        padding: 10px;
+        margin-left: 15%;
+        border: none;
+        border-radius: 8px;
+        margin-top: 30px;
+        background: #ECB176;
+        box-shadow: 5px 5px 5px 5px rgb(145, 145, 145);
+        transition: .5s;
+        margin-bottom: 20px;
+    
+    }
+    .Client:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+    
+    .testimonial-item img {
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+    
+}
+}
+
+// <---Media Size Tablet--->
+@media (min-width:426px) and (max-width:769px) {
+  
+    .Client-container{
+        background: #ECB176;
+         .heading{
+            text-align: center;
+            padding-top: 25px;
+            p{
+                font-size: 2.5rem;
+            }
+             h2 {
+                color: var(--text-color);
+                font-size: 35px;
+                font-family: "Poppins", serif; 
+                
+            }
+            h1{
+                font-family: "Poppins", serif;
+                font-size: 60px;
+                font-weight: 450;
+      
+            }
+    
+         }
+    
+        .Client {
+           
+            padding: 10px;
+            margin-left: 5%;
+            border: none;
+            border-radius: 8px;
+            margin-top: 30px;
+            background: #ECB176;
+            box-shadow: 5px 5px 5px 5px rgb(145, 145, 145);
+            transition: .5s;
+            margin-bottom: 20px;
+        
+        }
+        .Client:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        
+        .testimonial-item img {
+            border-radius: 5px;
+            margin: 5px;
+        }
+        img {
+            max-width: 100%;
+            max-height: auto;
+         }
+         .title{
+             font-size: 1rem;
+         }
+         .text{
+             font-size: 0.9rem;
+         }
+         button{
+             padding: 6px;
+             font-size: 0.8rem;
+         }
+        
+        
+    }
+    }
+    
+// <----Media Size Mobile--->
+@media (min-width:320px) and (max-width:426px) {
+    .Client-container{
+        background: #ECB176;
+        padding-top: 25px;
+         .heading{
+            text-align: center;
+            p{
+                font-size: 2.5rem;
+            }
+             h2 {
+                color: var(--text-color);
+                font-size: 1.2rem;
+                font-family: "Poppins", serif; 
+                
+            }
+            h1{
+                font-family: "Poppins", serif;
+                font-size:2.2rem;
+                font-weight: 450;
+      
+            }
+            
+    
+         }
+    
+        .Client {
+            max-height:200px;
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            // margin-top: 30px;
+            background: #ECB176;
+            box-shadow: 5px 5px 5px 5px rgb(145, 145, 145);
+            transition: .5s;
+            margin-bottom: 20px;
+        
+        }
+        .Client:hover{
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+        
+         img {
+           max-width: 130px;
+           max-height: 100px;
+        }
+        .title{
+            font-size: 0.7rem;
+        }
+        .text{
+            margin: 0px;
+            font-size: 0.6rem;
+        }
+        button{
+            padding: 5px;
+            font-size: 0.7rem;
+        }
+        
+        
+    }
+    
+
+    
+}

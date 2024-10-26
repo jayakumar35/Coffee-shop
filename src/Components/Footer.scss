@@ -1,0 +1,106 @@
+// Media Size Leptop--->
+@media (min-width:1024px) { 
+.Footer-container{
+    background:#999;
+
+    .foodter {
+        margin-top: 10px; 
+    
+    }
+    
+    .foodter li {  
+        font-size: 18px;
+    
+    }
+    
+    .foodter .form-control {
+        height: 43px;
+        border-right: none;
+    }
+    
+    .foodter #button-addon2 {
+        color: rgb(242, 133, 8);
+        height: 43px;
+        border-left: none;
+        margin-top: px;
+    }
+    .sclmdi svg{
+        color: var(--box-color);
+        margin-top: 15px;
+        padding-left:12px;
+        width: 50px;
+    }
+}
+}
+
+// Media Size Tablet--->
+@media (min-width:426px) and (max-width:769px) { 
+    .Footer-container{
+        background:#999;
+    
+        .foodter {
+            margin-top: 10px; 
+        
+        }
+        
+         li {  
+            font-size: 0.9rem;
+        
+        }
+        
+         .form-control {
+            height: 1.5rem;
+            border-right: none;
+        }
+        
+         #button-addon2 {
+             color: rgb(242, 133, 8);
+            height: 24px;
+            border-left: none;
+            margin: 0;
+            padding: 0;
+        }
+        .sclmdi svg{
+            color: var(--box-color);
+            margin-top: 15px;
+            padding-left:12px;
+            width: 30px;
+        }
+    }
+    }
+
+// Media Size Mobile--->
+@media (min-width:320px) and (max-width:426px) { 
+    .Footer-container{
+        background:#999;
+    
+        .foodter {
+            margin-top: 10px; 
+        
+        }
+        
+         li {  
+            font-size: 0.9rem;
+        
+        }
+        
+         .form-control {
+            height: 1.5rem;
+            border-right: none;
+        }
+        
+         #button-addon2 {
+             color: rgb(242, 133, 8);
+            height: 24px;
+            border-left: none;
+            margin: 0;
+            padding: 0;
+        }
+        .sclmdi svg{
+            color: var(--box-color);
+            margin-top: 15px;
+            padding-left:12px;
+            width: 30px;
+        }
+    }
+    }

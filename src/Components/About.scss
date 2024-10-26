@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// <---Media Size Leptop--->
+@media (min-width: 1024px) {
+    .About-container {
+        background: #ecb176;
+
+        .line {
+            font-size: 2.5rem;
+        }
+        h3 {
+            font-family: "Poppins", serif;
+        }
+        h1 {
+            font-size: 60px;
+            font-weight: 450;
+            margin-top: 20px;
+        }
+
+        .About-content {
+            margin-top: 10px;
+            height: auto;
+            gap: 10px;
+        }
+
+        .About-content h2 {
+            color: var(--box-color);
+            font-size: 45px;
+            font-family: "Dancing Script", cursive;
+
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        .About-content h4 {
+            color: rgb(86, 88, 84);
+            font-size: 20px;
+        }
+
+        .About-content p {
+            margin-top: 30px;
+            font-family: "Kalam", cursive;
+        }
+
+        button {
+            background: transparent;
+            width: 170px;
+            border: 1px solid #999;
+            border-radius: 3px;
+            height: 40px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .About-content button:hover {
+            cursor: pointer;
+            border: none;
+            background-color: #999;
+            box-shadow: 0 0 2px rgb(89, 89, 90);
+        }
+
+        .About-content img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .About-content svg {
+            color: #c3ff93;
+        }
+
+        .About-content svg:hover {
+            cursor: pointer;
+            border: 1px solid;
+            background-color: #90d26d;
+            border-radius: 50px;
+        }
+    }
+}
+
+// <---Media Size Tablet--->
+@media (min-width: 426px) and (max-width: 769px) {
+    .About-container {
+        background: #ecb176;
+        .line {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-family: "Poppins", serif;
+        }
+        h1 {
+            font-size:3rem;
+            font-weight: 450;
+            margin-top: 20px;
+        }
+
+        .About-content {
+            margin-top: 10px;
+            height: auto;
+        }
+
+        .About-content h2 {
+            color: var(--box-color);
+            font-size: 35px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        .About-content h4 {
+            color: rgb(86, 88, 84);
+            font-size: 10px;
+        }
+
+        .About-content p {
+            margin-top:0.6rem;
+            font-family: "Kalam", cursive;
+        }
+
+        button {
+            background: transparent;
+            width: 170px;
+            border: 1px solid #999;
+            border-radius: 3px;
+            height: 40px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .About-content button:hover {
+            cursor: pointer;
+            border: none;
+            background-color: #999;
+            box-shadow: 0 0 2px rgb(89, 89, 90);
+        }
+
+        .About-content img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .About-content svg {
+            color: #c3ff93;
+        }
+
+        .About-content svg:hover {
+            cursor: pointer;
+            border: 1px solid;
+            background-color: #90d26d;
+            border-radius: 50px;
+        }
+    }
+}
+
+// <---Media Size Mobile--->
+@media (min-width:320px) and (max-width: 426px) {
+    .About-container {
+        background: #ecb176;
+        .line {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-family: "Poppins", serif;
+            padding: 0px;
+            margin: 0px;
+        }
+        h1 {
+            font-size:2rem;
+            font-weight: 450;
+            margin-top: 20px;
+        }
+
+        .About-content {
+            margin-top: 10px;
+            height: auto;
+        }
+
+        .About-content h2 {
+            font-size: 2rem;
+            font-family: "Dancing Script", cursive;
+
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+       
+
+        .About-content p {
+            margin-top: 10px;
+            font-size: 0.6rem;
+            font-family: "Kalam", cursive;
+        }
+
+        button {
+            background: transparent;
+            width: 100px;
+            border: 1px solid #999;
+            border-radius: 3px;
+            height: 20px;
+            color: #333;
+            font-size: 0.6rem;
+        }
+
+        .About-content button:hover {
+            cursor: pointer;
+            border: none;
+            background-color: #999;
+            box-shadow: 0 0 2px rgb(89, 89, 90);
+        }
+
+        .About-content img {
+            max-height: 50%;
+            max-width: 50%;
+        }
+
+        .About-content svg {
+            color: #c3ff93;
+        }
+
+        .About-content svg:hover {
+            cursor: pointer;
+            border: 1px solid;
+            background-color: #90d26d;
+            border-radius: 50px;
+        }
+    }
+}
+
