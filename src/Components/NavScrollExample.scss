@@ -6,8 +6,11 @@
 @media (min-width: 1024px) {
   .navbar {
     background: transparent;
-  
 
+    .coffeelogo{
+      max-width: 100px;
+      max-height: 100px;
+     }
   .brand {
     font-size: 3rem;
     font-family: "Dancing Script", cursive;
@@ -32,7 +35,10 @@
   .navbar {
     background: transparent;
   
-
+   .coffeelogo{
+    max-width: 50px;
+    max-height: 50px;
+   }
   .brand {
     font-size: 2rem;
     font-weight: bold;
@@ -57,7 +63,10 @@
 @media (min-width:426px) and (max-width:769px) {
   .navbar {
     background: transparent;
-  
+    .coffeelogo{
+      max-width: 75px;
+      max-height: 75px;
+     }
 
   .brand {
     font-size: 2rem;

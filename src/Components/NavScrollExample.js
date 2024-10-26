@@ -4,11 +4,19 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar'; 
 import './NavScrollExample.scss'
+import coffelogo from './image/coffeelogo.png'
 
 function NavScrollExample() { 
   return (
     <Navbar   expand="lg" className="navbar">
       <Container >
+      <img
+              src={coffelogo}
+              width="100"
+              height="100"
+              className=" coffeelogo d-inline-block align-top "
+              alt="React Bootstrap logo"
+            />
         <Navbar.Brand className='brand ' href="#"> Coffee Shop</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
